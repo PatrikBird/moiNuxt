@@ -6,3 +6,14 @@ node_modules
 .output
 .env
 dist
+.vscode/*
+.vscode/settings.json
+.DS_Store
+.vercel
+
+# Yarn
+.yarn/cache
+.yarn/*state*
+
+# Local History
+.history
