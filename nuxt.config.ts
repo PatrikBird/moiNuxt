@@ -2,12 +2,11 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/color-mode',
     'nuxt-icon',
     '@nuxtjs/critters',
     '@vueuse/nuxt',
   ],
-  colorMode: {
-    classSuffix: '',
+  typescript: {
+    shim: false,
   },
 })
